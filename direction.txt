@@ -4,6 +4,7 @@ Brainstorming here:
 
 objective: a cloud agnostic deployment program 
 - terraform and opentf sucks. shitty notation, now commercial licence and a messy fight between the two
+- terraform/opentf require different manifests/objects for deployment to different cloud providers - this is the problem to solve
 - replace with yaml
 - terraform requires a statefile which we hope to eliminate
 - must have: ability to deploy to any cloud provider using the same manifest
