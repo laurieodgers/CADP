@@ -14,6 +14,7 @@ specifics:
 - each vm or item is controlled by an id which is provided by the user. applied to vm and boot disk via tags, maybe everything else associated
 - no statefile, its all controlled by the id mentioned above
 - where its deployed to is via command line. eg cadp deploy -i filename --destination (gcp, aws, azure, do, etc) --serviceaccount (path-to-file)
+- no statefile means that any version of cadp should be able to be applied to the same infrastructure
 
 
 optional which will be implemented in future:
