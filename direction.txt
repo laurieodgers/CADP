@@ -12,9 +12,10 @@ objective: a cloud agnostic deployment program
 
 specifics:
 - each vm or item is controlled by an id which is provided by the user. applied to vm and boot disk via tags, maybe everything else associated
-- no statefile, its all controlled by the id mentioned above
+- no statefile, its all controlled by the id mentioned above, and api calls to check whether the resource needs to be replaced
 - where its deployed to is via command line. eg cadp deploy -i filename --destination (gcp, aws, azure, do, etc) --serviceaccount (path-to-file)
 - no statefile means that any version of cadp should be able to be applied to the same infrastructure
+- plugins via file includes where functions are named the same. eg "get_all_vms" or "get_vm(id)"
 
 
 optional which will be implemented in future:
