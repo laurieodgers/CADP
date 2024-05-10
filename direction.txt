@@ -21,3 +21,6 @@ optional which will be implemented in future:
 
 First steps:
 - implement ability to deploy a vm into gcp/aws/azure
+
+Potential names:
+- mustr (vms are cattle, we are mustering them)
