@@ -11,11 +11,12 @@ objective: a cloud agnostic deployment program
 
 specifics:
 - each vm or item is controlled by an id which is provided by the user. applied to vm and boot disk, maybe everything else associated
+- no statefile, its all controlled by the id mentioned above
 - where its deployed to is via command line. eg cadp deploy -i filename --destination (gcp, aws, azure, do, etc) --serviceaccount (path-to-file)
 
 
 optional which will be implemented in future:
 - k8s integration
 
-Next steps:
+First steps:
 - implement ability to deploy a vm into gcp/aws/azure
